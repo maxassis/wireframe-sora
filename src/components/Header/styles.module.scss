@@ -1,0 +1,42 @@
+.wrapper-main {
+  position: sticky;
+  width: 100%;
+  height: 10.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7e3f9;
+
+  ul {
+    display: flex;
+    gap: 2.4rem;
+
+    li {
+      cursor: pointer;
+    }
+  }
+}
+
+.purple {
+  color: #9873f7;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.06em;
+}
+
+.black {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.06em;
+}
+
+.logo {
+  margin-top: 3.8rem;
+}
+
+.wrapper-nav {
+  display: flex;
+  gap: 5.2rem;
+}
