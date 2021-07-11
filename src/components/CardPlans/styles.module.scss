@@ -1,0 +1,66 @@
+.wrapper-cards {
+  &_card {
+    width: 345px;
+    height: 428px;
+    border: 1px solid #b5bdcf;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0 3.2rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.6rem;
+
+    button {
+      width: 100%;
+    }
+
+    &_card-title {
+      border-bottom: 1px solid #e7e3f9;
+      padding-bottom: 2.8rem;
+
+      h3 {
+        font-family: "Sora", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 110%;
+        color: #363940;
+        margin-bottom: 0.8rem;
+      }
+
+      span {
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 110%;
+        color: #6c7891;
+      }
+    }
+  }
+}
+
+.wrapper-cards_card_descriptions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 28.1rem;
+  height: 16.1rem;
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+
+  div:last-child {
+    text-align: right;
+  }
+
+  &_items {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+
+    span {
+      font-family: "Inter", sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 110%;
+      color: #6c7891;
+      display: block;
+    }
+  }
+}
