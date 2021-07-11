@@ -13,7 +13,7 @@ export default function Hero() {
       
         <div className={styles["wrapper-titles"]}>
           <span>Avaliable</span>
-          <h1>Wireframe codeboost</h1>
+          <h1>Wireframe Sora</h1>
           <div className={styles["wrapper-titles_btns"]}>
             <button className="btn-primary">Download</button>
             <button className="btn-outline">Teste gratís</button>

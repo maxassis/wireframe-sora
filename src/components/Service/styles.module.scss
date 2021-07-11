@@ -1,0 +1,27 @@
+.wrapper-main {
+  padding-top: 14.5rem;
+  padding-bottom: 9rem;
+
+  &_section-title {
+    margin: 0 auto;
+    margin-bottom: 9rem;
+    text-align: center;
+
+    h2 {
+      font-family: "Sora", sans-serif;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 110%;
+      color: #363940;
+      margin-bottom: 1.6rem;
+    }
+  }
+}
+
+.wrapper-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-row-gap: 5.6rem;
+  grid-column-gap: 5.6rem;
+}

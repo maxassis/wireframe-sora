@@ -1,0 +1,37 @@
+.wrapper-main {
+  background-color: #f6f7fa;
+  padding: 9rem 11.2rem;
+
+  &_title {
+    text-align: center;
+    margin-bottom: 8.7rem;
+
+    h2 {
+      font-family: "Sora", sans-serif;
+      font-weight: bold;
+      font-size: 3.6rem;
+      line-height: 110%;
+      margin-bottom: 1.3rem;
+    }
+
+    p {
+      font-size: 1.7rem;
+      line-height: 170%;
+      color: #6c7891;
+    }
+  }
+}
+
+.wrapper-cards {
+  display: flex;
+  width: 100%;
+  gap: 9rem;
+
+  &_card {
+    width: 345px;
+    height: 428px;
+    border: 1px solid #b5bdcf;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+}
