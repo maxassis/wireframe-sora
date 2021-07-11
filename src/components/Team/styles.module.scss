@@ -1,4 +1,4 @@
-.wrapper-main {
+.wrapper-title {
   padding-top: 9rem;
   padding-bottom: 14.5rem;
 }
@@ -96,11 +96,47 @@
   width: 100%;
   height: 380px;
   gap: 3.2rem;
+  margin-bottom: 14.5rem;
 
   &_big {
     width: 100%;
     max-width: 586px;
     height: 380px;
     background: url(../../assets/imgs/peopĺe2.svg);
+    padding-top: 3.2rem;
+    padding-left: 3.6rem;
+
+    h3 {
+      font-family: "Sora", sans-serif;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 150%;
+      color: #f6f7fa;
+    }
+
+    span {
+      font-family: "Sora", sans-serif;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 150%;
+      color: #b5bdcf;
+    }
+  }
+}
+
+.quote {
+  width: 100%;
+  max-width: 867px;
+  height: 98px;
+  margin: 0 auto;
+  margin-bottom: 14.5rem;
+
+  h2 {
+    font-family: "Sora", sans-serif;
+    color: #363940;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 135%;
+    text-align: center;
   }
 }

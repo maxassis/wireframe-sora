@@ -8,7 +8,7 @@ export default function Team() {
   return (
     <section>
       <div className="container">
-        <div className={styles["wrapper-main"]}>
+        <div className={styles["wrapper-title"]}>
           <div className={styles["first-title"]}>
             <h2>
               There are many reasons to get down and start to get depressed
@@ -58,7 +58,17 @@ export default function Team() {
             subTitle="DESIGNER"
             description="There are many reasons to get down and start to get depressed about"
           />
-          <div className={styles["wrapper-peoples_big"]}></div>
+          <div className={styles["wrapper-peoples_big"]}>
+            <h3>Gustavo Korsgaard</h3>
+            <span>CEO</span>
+          </div>
+        </div>
+
+        <div className={styles.quote}>
+          <h2>
+            “ There are many reasons to get down and start to get depressed
+            about your situation ”
+          </h2>
         </div>
       </div>
     </section>
