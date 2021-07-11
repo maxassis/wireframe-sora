@@ -1,0 +1,30 @@
+.wrapper-peoples {
+  &_people {
+    width: 280px;
+    height: 380px;
+
+    h4 {
+      margin-top: 34px;
+      margin-bottom: 8px;
+      font-family: "Sora", sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 110%;
+      color: #363940;
+    }
+
+    span {
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 110%;
+      color: #b5bdcf;
+    }
+
+    p {
+      margin-top: 31px;
+      font-size: 17px;
+      line-height: 135%;
+      color: #6c7891;
+    }
+  }
+}
