@@ -13,9 +13,13 @@
     align-items: flex-start;
     gap: 1.6rem;
 
+    @media (max-width: 480px) {
+      justify-self: center;
+    }
+
     &_text {
       h3 {
-        font-family: "Sora", sans-serif;
+        font-family: 'Sora', sans-serif;
         font-weight: bold;
         font-size: 2rem;
         line-height: 110%;
@@ -24,7 +28,7 @@
       }
 
       p {
-        font-family: "Inter", sans-serif;
+        font-family: 'Inter', sans-serif;
         font-size: 1.7rem;
         line-height: 150%;
         color: #6c7891;

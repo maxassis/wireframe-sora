@@ -11,9 +11,20 @@
     display: flex;
     gap: 2.4rem;
 
+    @media (max-width: 991px) {
+      gap: 1.4rem;
+    }
+
     li {
       cursor: pointer;
+      @media (max-width: 991px) {
+        font-size: 1.2rem;
+      }
     }
+  }
+
+  @media (max-width: 680px) {
+    justify-content: center;
   }
 }
 
@@ -23,6 +34,9 @@
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.06em;
+  @media (max-width: 991px) {
+    font-size: 1.3rem;
+  }
 }
 
 .black {
@@ -40,4 +54,12 @@
 .wrapper-nav {
   display: flex;
   gap: 5.2rem;
+
+  @media (max-width: 680px) {
+    display: none;
+  }
+
+  @media (max-width: 991px) {
+    gap: 3.1rem;
+  }
 }

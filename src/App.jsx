@@ -1,10 +1,10 @@
-import React from "react";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Plans from "./components/Plans";
-import Service from "./components/Service";
-import Team from "./components/Team";
+import React from 'react'
+//import Footer from "./components/Footer";
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Plans from './components/Plans'
+import Service from './components/Service'
+import Team from './components/Team'
 
 function App() {
   return (
@@ -14,9 +14,11 @@ function App() {
       <Service />
       <Plans />
       <Team />
-      <Footer />
+      {/*  
+      <Team />
+      <Footer /> */}
     </>
-  );
+  )
 }
 
-export default App;
+export default App
