@@ -1,30 +1,30 @@
-import React from "react";
-import styles from "./styles.module.scss";
-import choose from "../../assets/imgs/choose.svg";
+import React from 'react'
+import styles from './styles.module.scss'
+import choose from '../../assets/imgs/choose.svg'
 
-import CardPeople from "../CardPeople";
+import CardPeople from '../CardPeople'
 
 export default function Team() {
   return (
     <section>
       <div className="container">
-        <div className={styles["wrapper-title"]}>
-          <div className={styles["first-title"]}>
+        <div className={styles['wrapper-title']}>
+          <div className={styles['first-title']}>
             <h2>
               There are many reasons to get down and start to get depressed
               about your situation
             </h2>
-            <div className={styles["first-title_btns-wrapper"]}>
+            <div className={styles['first-title_btns-wrapper']}>
               <button className="btn-primary">Download</button>
               <button className="btn-outline">Teste gratís</button>
             </div>
           </div>
         </div>
 
-        <div className={styles["choosing-wrapper"]}>
+        <div className={styles['choosing-wrapper']}>
           <img src={choose} alt="choose image" />
 
-          <div className={styles["choosing-wrapper_description"]}>
+          <div className={styles['choosing-wrapper_description']}>
             <span>TRENDS</span>
             <h2>
               Choosing The <br /> Right Path
@@ -47,18 +47,20 @@ export default function Team() {
           </p>
         </div>
 
-        <div className={styles["wrapper-peoples"]}>
-          <CardPeople
-            title="Zain Torff"
-            subTitle="DEVELOPER"
-            description="There are many reasons to get down and start to get depressed about"
-          />
-          <CardPeople
-            title="Gretchen Philips"
-            subTitle="DESIGNER"
-            description="There are many reasons to get down and start to get depressed about"
-          />
-          <div className={styles["wrapper-peoples_big"]}>
+        <div className={styles['wrapper-peoples']}>
+          <div className={styles['wrapper-peoples_little-cards']}>
+            <CardPeople
+              title="Zain Torff"
+              subTitle="DEVELOPER"
+              description="There are many reasons to get down and start to get depressed about"
+            />
+            <CardPeople
+              title="Gretchen Philips"
+              subTitle="DESIGNER"
+              description="There are many reasons to get down and start to get depressed about"
+            />
+          </div>
+          <div className={styles['wrapper-peoples_big']}>
             <h3>Gustavo Korsgaard</h3>
             <span>CEO</span>
           </div>
@@ -72,5 +74,5 @@ export default function Team() {
         </div>
       </div>
     </section>
-  );
+  )
 }
