@@ -23,5 +23,5 @@ Wireframe criado com React
 
 ![](https://images2.imgbox.com/44/c7/L5oFbUTh_o.png)
 
-https://images2.imgbox.com/db/50/apUvytkv_o.png
+![](https://images2.imgbox.com/db/50/apUvytkv_o.png)
 
