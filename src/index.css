@@ -6,7 +6,7 @@
   list-style: none;
   text-decoration: none;
   font-size: 1.6rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 img {
@@ -16,6 +16,7 @@ img {
 
 html {
   font-size: 65.5%;
+  overflow-x: hidden;
 }
 
 button {
